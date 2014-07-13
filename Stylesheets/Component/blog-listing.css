@@ -1,0 +1,145 @@
+.post {
+  vertical-align: top;
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: #eaeaea;
+  color: #333;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+.post:hover {
+  background-color: #e0e0e0;
+}
+
+@media (min-width: 600px) {
+  .post {
+    height: 125px;  
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .post {
+    display: inline-block;
+    width: 50%;
+    height: 150px;
+  }
+}
+
+.post .teaser-image {
+  float: left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 70%;
+  right: 0;
+  overflow: hidden;
+  margin-: -50px;
+  display: none;
+}
+
+.post .teaser-image img {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.post .title {
+  font-family: OpenSansLight, Arial;
+  font-size: 24px;
+}
+
+.post .title a {
+  text-decoration: none;
+  color: #404040;
+}
+
+.post .description,
+.post .meta,
+.post .teaser {
+  display: none;
+}
+
+.post .date {
+  color: #999;
+  font-size: 14px;
+}
+
+.post .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.post .readmore {
+  position: absolute;
+  bottom: 10px;
+  left: -300px;
+  z-index: 9;
+  color: #fff;
+  font-family: OpenSansBold, Arial, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-shadow: 0 0 3px rgba(0,0,0,1);
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 0 10px;
+  line-height: 25px;
+}
+
+.post:hover > .readmore {
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  left: 0px;
+  color: #fff;
+}
+
+
+.listing .paging {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.listing .paging .cl {
+  text-decoration: none;
+}
+
+.listing .paging .side-control .control + .control {
+  margin-left: 5px;
+}
+
+.listing .paging .pages {
+  margin: 0 10px;
+}
+
+.listing .paging .pages .pl {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  min-width: 20px;
+  text-align: center;
+}
+
+.listing .paging .pages .current {
+  font-weight: bold;
+}
+

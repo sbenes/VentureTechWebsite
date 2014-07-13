@@ -1,0 +1,20 @@
+.blog-nav h2 {
+  margin-bottom: 5px;
+}
+
+.blog-nav .menu {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-nav .mi {
+  list-style: none;
+}
+
+.blog-nav .mi +.mi {
+  margin-top: 3px;
+}
+
+.blog-nav .menuitemlabel {
+  text-decoration: none;
+}

@@ -1,0 +1,63 @@
+.content_column {
+  min-height: 1000px; 
+}
+
+.blog-nav {
+  margin-top: 30px;
+}
+
+.blog-nav h2 {
+  margin: 0;
+  font-family: OpenSansLight;
+  padding-left: 10px;
+  color: #a3d6ff;
+}
+
+@media (min-width: 600px) {
+  .blog-nav h2 {
+    padding-left: 30px;
+  }
+}
+
+.blog-nav > ul.menu {
+  margin-top: 0;
+}
+
+.author-info .photo {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  border: 1px solid #fff;
+}
+
+.author-info .photo img {
+  display: block;
+}
+
+.author-info .info {
+  margin-top: 15px;
+}
+
+.author-info h1.name {
+  font-weight: normal;
+  margin: 0 0 20px;
+}
+
+.author-info .name .label {
+  font-size: 16px;
+  font-family: OpenSansSemiBold;
+  margin-bottom: -5px;
+  display: block;
+}
+
+.author-info .name .person {
+  display: block;
+}
+
+.author-info .name a {
+  text-decoration: none;
+}
+
+.author-info .biography p {
+  margin-top: 0;
+}

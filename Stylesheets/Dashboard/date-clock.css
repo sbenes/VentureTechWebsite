@@ -1,0 +1,9 @@
+.clock_container {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.clock_container .curr_date {
+  font-weight: bold;
+}

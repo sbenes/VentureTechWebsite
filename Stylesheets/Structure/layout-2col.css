@@ -1,0 +1,94 @@
+
+@media (min-width: 769px) {
+  .aside {
+    width: 250px;
+    float: left;
+  }
+}
+
+@media (min-width: 1025px) {
+  .aside {
+    width: 300px;
+  }
+}
+
+.e_content {
+  padding: 0;
+  background-color: rgb(28,116,187);
+}
+
+.aside {
+  color: #fff; 
+}
+
+.aside .intro {
+  padding: 15px;
+  font-size: 14px;
+  background: rgb(41, 73, 124);
+}
+
+@media (min-width: 1025px) {
+  .aside .intro {
+    padding: 20px;
+  }
+}
+
+.aside .intro h1 {
+  margin-bottom: 0; 
+  margin-top: 0;
+  font-family: OpenSansLight;
+}
+
+.aside .intro h1 + p {
+  margin-top: 0;
+}
+
+.aside ul.menu {
+  padding: 10px 0 0;
+  margin: 0 0 10px;
+}
+
+@media (min-width: 769px) {
+  .aside ul.menu {
+    padding: 0;
+    margin: 60px 0 30px 30px;
+  }
+}
+
+.aside .menuitemlabel {
+  color: #fff;
+  padding: 8px 10px;
+  display: block;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.aside .menuitemlabel:hover {
+  background-color: #29497C; 
+}
+
+.aside .mi_active .menuitemlabel {
+  color: #1c74bc;
+  background: #f9f9f9;
+}
+
+.content_column {
+  padding: 30px;
+  background-color: #f9f9f9;
+ /* overflow: hidden;*/ /* this fixes a bug with clearing adjacent containers acidentally with children of this container, if you know a better fix, plz fix - SB */
+  min-height: 500px;
+}
+
+@media (min-width: 769px) {
+  .content_column {
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .content_column {
+    margin-left: 300px;
+  }
+}

@@ -1,0 +1,141 @@
+
+.content_column {
+  padding: 0;
+  /* set this back to normal from the bug fix one, to fix an ipad bug */
+  overflow: visible;
+}
+
+
+.ventures {
+  float: left;
+  width: 100%;
+  height: 350px;
+  background: #f9f9f9;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media (min-width: 600px) {
+  .ventures {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+  .ventures {
+    width: 33%;
+  }
+  .ventures.last {
+    width: 34%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .ventures {
+    width: 25%;
+  }
+  .ventures.last {
+    width: 25%;
+  }
+}
+
+.ventures.hide {
+  width: 0; 
+  border-width: 0;
+}
+
+.featured_ventures .ventures.active {
+  display: block; 
+}
+
+.ventures .primary .logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 80%;
+}
+
+.ventures .secondary {
+  display: block;
+  background-color: #eaeaea;
+  z-index: 5;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  color: #404040;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 1.6;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.ventures.goto-top .secondary {
+  left: 0;
+  top: -100%;
+}
+.ventures.goto-right .secondary {
+  left: 100%;
+  top: 0;
+}
+.ventures.goto-bottom .secondary {
+  left: 0;
+  top: 100%;
+}
+.ventures.goto-left .secondary {
+  left: -100%;
+  top: 0;
+}
+
+.ventures.active .secondary {
+  left: 0;
+  top: 0;
+}
+
+.ventures .secondary .title {
+  font: 24px/1.25 OpenSansSemiBold, Arial, sans-serif;
+}
+
+.ventures .secondary .logo img {
+  display: none;
+}
+
+.ventures .secondary .website {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  z-index: 9;
+  margin: 0;
+  color: #fff;
+  font-family: OpenSansBold, Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+  white-space: nowrap;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 0 10px;
+  line-height: 25px;
+  width: auto;
+}
+
+.ventures .readmore {
+  display: none; 
+}

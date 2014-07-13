@@ -1,0 +1,40 @@
+@media (min-width: 600px) {
+  .content_column .intro {
+    float: left;
+    width: 380px;
+  }
+
+  .map_con {
+    margin-left: 400px;
+    margin-bottom: 30px;
+  }
+}
+
+.map_con {
+  border: 1px solid #d0d0d0;
+}
+
+.map_con .marker_info {
+  min-height: 80px;
+}
+
+.map_con .marker_info .heading {
+  font-weight: bold;
+}
+
+.content_column .googlemap .map {
+  width: 100% !important;
+  height: 300px;
+}
+
+.map_con .location {
+  background: #eaeaea;
+  color: #333;
+  font-size: 16px;
+  font-family: OpenSans;
+  padding: 5px 10px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.map_con .marker_info .city_state_zip {
+  white-space: nowrap;
+}

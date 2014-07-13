@@ -1,0 +1,21 @@
+.content_column {
+  font-size: 26px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.kudo {
+  padding-bottom: 15px;
+}
+
+.kudo .content p {
+  margin: 0 0 0 10px
+}
+
+.kudo .name {
+  margin-top: 10px;
+}

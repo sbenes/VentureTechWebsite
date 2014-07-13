@@ -1,0 +1,81 @@
+.genform .message_container {
+  display: none;
+}
+
+.genform .question {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.genform .question table.phone_number_form {
+  width: 100%; 
+}
+
+.genform .question .phone_number_form td {
+  padding: 0;
+}
+
+.genform .question .label{
+  display: none;
+}
+
+.genform .question input,
+.genform .question select,
+.genform .question textarea {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.genform .validation_error input,
+.genform .validation_error select,
+.genform .validation_error textarea {
+  color: rgb(169, 68, 66);
+  background-color: rgb(242, 222, 222);
+  border-color: rgb(235, 204, 209);
+}
+
+/* have to separate these for some reason... otherwise chrome wont work */
+.genform .validation_error input::-webkit-input-placeholder,
+.genform .validation_error textarea::-webkit-input-placeholder {
+  color: rgb(169, 68, 66); 
+}
+.genform .validation_error input:-moz-placeholder,
+.genform .validation_error textarea:-moz-placeholder {
+  color: rgb(169, 68, 66); 
+}
+.genform .validation_error input::-moz-placeholder,
+.genform .validation_error textarea::-moz-placeholder {
+  color: rgb(169, 68, 66); 
+}
+.genform .validation_error input::-ms-input-placeholder,
+.genform .validation_error textarea::-ms-input-placeholder {
+  color: rgb(169, 68, 66);
+}
+
+.question.name .given_name_container,
+.question.email {
+  padding-right: 10px; 
+}
+
+.genform .question.email,
+.genform .question.phone,
+.genform .question.name .part {
+  width: 50%;
+  vertical-align: text-top;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.genform span.submit_registration_button {
+  display: block;
+  text-align: center;
+}
+
+.genform span.submit_registration_button button.miwt_submit {
+  padding: 8px 15px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background: rgb(28,116,187);
+}

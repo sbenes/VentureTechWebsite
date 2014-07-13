@@ -1,0 +1,94 @@
+
+.post .author-info {
+  border: 1px solid #d0d0d0;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.post .author-info .photo {
+  display: table-cell;
+  vertical-align: bottom;
+  background-color: #404040;
+  margin-right: 15px;
+  border: 1px solid #333;
+}
+
+.post .author-info .info {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.post .author-info .name {
+  font-family: OpenSansSemiBold;
+  font-size: 20px;
+}
+
+.post .author-info .biography {
+  font-size: 14px;
+}
+
+.post .author-info .biography p:last-child {
+  margin-bottom: 0;
+}
+
+.post .title a {
+  text-decoration: none;
+}
+
+.post.detail .title {
+  margin-bottom: 0;
+}
+
+.post .date {
+  font-size: 12px;  
+  overflow: hidden;
+  font-family: OpenSans;
+  float: left;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+  margin-right: 10px;
+  color: #999;
+}
+
+.post .meta {
+  font-size: 12px;
+  color: #999;
+}
+
+.post .meta .mi a {
+  text-decoration: none;
+  color: #999;
+}
+
+.post .meta .mi a:hover {
+  color: rgb(28, 116, 187);
+}
+
+.post .social {
+  margin: 10px 0 0;
+}
+
+.post.detail .social {
+  margin: 20px 0;
+  height: 20px;
+}
+
+.post.detail .social div.atclear {
+  clear: none; 
+}
+
+.post.detail .content img {
+  border: 1px solid #333;
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.post .readmore a {
+  text-decoration: none;
+}
+
+.post .comments {
+  margin: 20px 0;
+}
+

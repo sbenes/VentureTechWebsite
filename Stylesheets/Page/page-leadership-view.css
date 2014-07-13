@@ -1,0 +1,39 @@
+.aside .leadership .menuitemlabel {
+  background: #f9f9f9;
+  color: #1c74bc;
+}
+
+.details {
+  float: left;
+  width: 200px;
+}
+
+.details .photo {
+  border: 1px solid #111;
+  background: #111;
+  min-height: 100px;
+}
+
+.details .photo img {
+  display: block;
+  width: 100%;
+}
+
+.details .meta {
+  margin: 20px 0 10px;
+  font-size: 14px;
+}
+
+.details .meta .mi {
+  margin-bottom: 5px;
+}
+
+.details .meta .mi.email {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.info {
+  margin-left: 230px;
+}

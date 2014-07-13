@@ -1,0 +1,222 @@
+.timeline {
+  display: none; 
+}
+
+
+#timeline {
+  min-height: 350px;
+  position: relative;
+  padding-top: 1px;
+}
+
+#timeline .key {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+#timeline .key .symbol {
+  width: 20px;
+  height: 2px;
+  background: #333;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+
+#timeline .controls {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+#timeline .controls a {
+  background: #eaeaea;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  margin-left: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#timeline .controls a:hover {
+  background: #d0d0d0;
+}
+
+#timeline .controls .disabled {
+  color: #aaa;
+}
+
+#timeline .controls .disabled:hover {
+  background: #eaeaea;
+}
+
+
+#timeline .bar {
+  position: relative;
+  border-top: 2px solid #75c1ff;
+  margin-top: 80px;
+  zoom:1;
+  display: block;
+}
+
+#ie7only #timeline .bar {
+  top: 50px;
+}
+
+#timeline .scale_markers {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 17px;
+  right: 0;
+}
+
+#timeline .scale_markers .marker {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  text-align: center;
+  width: 40px;
+  margin-left: -20px;
+}
+
+#timeline .scale_markers .marker .line {
+  border-left: 1px solid #75c1ff;
+  height: 10px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+#timeline .markers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#timeline .markers .marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  padding: 0 3px;
+  cursor: pointer;
+}
+
+#timeline .markers .marker span {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  background-color: rgb(28,116,187);
+  width: 20px;
+  height: 10px;
+  border-radius: 20px 20px 0 0;
+  border: 2px solid #75c1ff;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+#timeline .markers .marker.active span {
+  border-width: 8px;
+  width: 40px;
+  height: 40px;
+  top: -20px;
+  left: -10px;
+  z-index: 10;
+  border-radius: 20px;
+}
+
+#timeline .popups {
+  position: relative;
+}
+
+#timeline .popup {
+  border: 1px solid #d0d0d0;
+  padding: 6px;
+  width: 650px;
+  zoom: 1;
+  position: absolute;
+  top: 10px;
+  background: #fff;
+  margin: 0 3px;
+  margin-top: -10px;
+  opacity: 0;
+  padding: 20px; 
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.15);
+  box-shadow: 0 0 4px rgba(0,0,0,0.15);
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+#ie7only #timeline .popup {
+  top: 87px;
+}
+
+#timeline .popups .opened {
+  opacity: 1;
+  margin-top: 0;
+}
+
+#timeline .popup:before,
+#timeline .popup:after {
+  display: table;
+  content: ' ';
+}
+
+#timeline .popup:after {
+  clear: both;
+}
+
+#timeline .popup .article_teaser {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: #fff;
+}
+
+#timeline .popup p {
+  margin: 0;
+}
+
+#timeline .popup .title {
+  margin: 0 0 10px;
+  font-family: OpenSansLight, Arial, sans-serif;
+  font-size: 24px;
+}
+
+#timeline .popup h1 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#timeline .popup .description {
+}
+
+#timeline .popups .pfingsten .line,
+#timeline .key .pfingsten .symbol { background: #2d2d2d; }
+#timeline .popups .pfingsten,
+#timeline .key .pfingsten { color: #2d2d2d; }
+
+#timeline .popups .china .line,
+#timeline .key .china .symbol { background: #68a866; }
+#timeline .popups .china,
+#timeline .key .china { color: #68a866; }
+
+#timeline .popups .india .line,
+#timeline .key .india .symbol { background: #6a9ecf; }
+#timeline .popups .india,
+#timeline .key .india { color: #6a9ecf; }

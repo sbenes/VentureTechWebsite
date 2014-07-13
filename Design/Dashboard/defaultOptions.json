@@ -1,0 +1,25 @@
+{
+    "options": {
+        "credits": {
+            "enabled": false
+        },
+        "title": {
+            "style": {
+                "fontFamily": "OpenSansBold, Arial, sans-serif",
+				"fontSize": "24px"
+            },
+			"margin": 25
+        },
+		"xAxis": {
+			"categories": [],
+			"showEmpty": false
+		},
+		"yAxis": {
+			"title": {
+				"enabled": false
+			},
+			"showEmpty": false
+		},
+		"series": []
+	}
+}

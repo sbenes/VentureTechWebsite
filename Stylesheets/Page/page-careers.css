@@ -1,0 +1,17 @@
+.career_listing + .career_listing {
+  margin-top: 50px;
+}
+
+.career_listing .ac_heading {
+  font-size: 24px;
+  font-family: OpenSansSemiBold;
+}
+
+.career_listing .article_heading {
+  font-size: 18px;
+  font-family: OpenSansBold;
+}
+
+.career_listing .ac_item + .ac_item {
+  margin-top: 20px;
+}

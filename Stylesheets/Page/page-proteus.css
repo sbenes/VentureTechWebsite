@@ -1,0 +1,53 @@
+.col h3 {
+  margin-top: 0;
+}
+
+@media (min-width: 600px) {
+  .col {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .col + .col {
+    padding-left: 50px;
+  }
+}
+
+
+
+
+.ventures {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  height: 200px;
+  border: 1px solid #d0d0d0;
+}
+
+.ventures .primary {
+  background: #fff;
+  height: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.ventures .primary .logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 80%;
+}
+
+.ventures .secondary {
+  display: none; 
+}
+
+.ventures .readmore {
+  display: none;
+}
+

@@ -1,0 +1,168 @@
+#enclosing2{
+  background-image: url('/resources/dyn/files/1137732z3981f28b/_fn/vt_gradient_bg.jpg');
+  background-color: #fff;
+  background-repeat: repeat-x;
+  /*
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(255,255,255,1) 50%), url('/resources/dyn/files/1132913z41f07da7/_fn/vt_home_bg.jpg');
+  background-image: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%), url('/resources/dyn/files/1132913z41f07da7/_fn/vt_home_bg.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(255,255,255,1))), url('/resources/dyn/files/1132913z41f07da7/_fn/vt_home_bg.jpg');
+  background-image: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(255,255,255,1) 50%), url('/resources/dyn/files/1132913z41f07da7/_fn/vt_home_bg.jpg');
+  background-image: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(255,255,255,1) 50%), url('/resources/dyn/files/1132913z41f07da7/_fn/vt_home_bg.jpg');
+  background-image: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(255,255,255,1) 50%), url('/resources/dyn/files/1132913z41f07da7/_fn/vt_home_bg.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #FFFFFF 25%), url("/resources/dyn/files/1132913z41f07da7/_fn/vt_home_bg.jpg") 
+  */
+}
+
+#column2{
+  background-image: none;
+  background-color: transparent;
+}
+
+.post.listing .content {
+  width: 55%;
+  position: relative;
+}
+
+.post.detail .social {
+  float: right;
+  min-width: 120px;
+}
+
+.image img {
+  width: 206px;
+  height: auto;
+}
+
+.teaser_image,
+.post .content {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  vertical-align: top;
+  margin: 20px 20px 20px 0;
+}
+
+.teaser{
+  margin: 15px 0;
+}
+
+.meta .category,
+.meta .author,
+.meta .date {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.title,
+.meta{
+  font-family: 'AmbleRegular', arial, sans-serif;
+  color: #1c74bc;
+}
+
+.content .title {
+  font-size: 20px;
+}
+
+.meta div + div {
+  padding-left: 10px;
+  border-left: 1px solid #1c74bc;
+}
+
+.post a,
+.blogNav a{
+  text-decoration: none;
+}
+
+.readmore {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.readmore img {
+  vertical-align: middle;
+}
+
+.author-block {
+  background: #5395CB;
+  margin: 10px 0;
+  line-height: 0;
+}
+
+.author-block img {
+  width: 100px;
+  height: auto;
+}
+
+.author-block .name a{
+  color: #000;
+  font-weight: bold;
+}
+
+.author-block .content {
+  margin: 0;
+  max-width: 700px;
+  line-height: 1.5;
+}
+
+.author-block .content .name,
+.author-block .content p{
+  margin: 5px 0;
+}
+
+.blogNav .blogMenu{
+  padding: 0 10px;
+  list-style: none;
+  margin: 5px auto;
+}
+
+.paging {
+  text-align: center;
+}
+
+.pages {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.pages li {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.pages li + li {
+  margin-left: 10px;
+}
+
+/********Authors Page********/
+authorImg img {
+  width: 200px;
+  height: auto;
+}
+
+.authorImg img {
+  width: 200px;
+  height: auto;
+}
+
+.authorImg {
+  vertical-align: top;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.author-bio {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 790px;
+}

@@ -1,0 +1,56 @@
+.quick_fact {
+  vertical-align: top;
+  padding: 20px;
+  min-height: 200px;
+  background-color: #eaeaea;
+  color: #333;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.quick_fact:hover {
+  background-color: #e0e0e0;
+}
+
+
+@media (min-width: 600px) {
+  .quick_fact {
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+  }
+  .quick_fact.x2 { width: 100%; }
+}
+
+@media (min-width: 1025px) {
+  .quick_fact { 
+    width: 33%;
+    height: 250px; 
+  }
+  .quick_fact.x2 { width: 66%; }
+}
+
+@media (min-width: 1281px) {
+  .quick_fact { 
+    width: 25%;
+  }
+  .quick_fact.x2 { width: 50%; }
+}
+
+.quick_fact .title {
+  font-family: OpenSansLight, Arial;
+  font-size: 32px;
+}
+
+.quick_fact .description {
+  color: #777;
+}
+
+.quick_fact .description a {
+  color: #38a6ff;
+  text-decoration: none;
+}

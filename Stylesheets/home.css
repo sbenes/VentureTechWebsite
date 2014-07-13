@@ -1,0 +1,11 @@
+#column1{
+  min-height: 300px; /* filler till slider is ready */
+}
+
+.post.slide {
+  border-top: none;
+}
+
+.post.slide .social {
+  display: none;
+}
